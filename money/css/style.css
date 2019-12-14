@@ -1,0 +1,1256 @@
+body,p,h1,h2,h3,h4,h5,h6,ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.middle {
+    width: 85%;
+    margin: 0 auto;
+}
+.header-area {
+    background: #474787;
+    overflow: hidden;
+    padding: 5px 0;
+    color: #ffffff;   
+}
+.header-text {
+    display: none;
+}
+.header-dash {
+    display: none;
+}
+.header-dash p {
+    width: 100%;
+}
+
+.header-area p {
+    float: right;
+}
+.header-area p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-area .text {
+    
+}
+.header-area .text h2 {
+    font-weight: normal;
+}
+
+                            /*MENU AREA*/
+
+.menu-area {
+	background: #ffffff;
+	padding: 20px 0 15px;
+	overflow: hidden;
+}
+.menu-area:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo-area {
+    width: 20%;
+    float: left;
+}
+.logo-area a {
+    text-decoration: none;
+}
+.logo-area .bars {
+    display: none;
+}
+.menu {
+    width:60%;
+    float: left;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+.menu-area ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    color: #474787;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+.menu-area ul li:hover a {
+    color: #d35400;
+    border-bottom: 2px solid #d35400;
+}
+
+.sign-area {
+    width: 20%;
+    float: left;
+    margin-top: 5px;
+}
+.login p {
+    float: right;
+}
+.login p a {
+    color: #474787;
+    font-size: 14px;
+    text-decoration: none;
+    outline: none;
+}
+.login p a:hover i, .login p a:hover {
+     color: #d35400 !important;
+}
+.sign-area .login .mr {
+    margin-right: 10px !important;
+}
+.login span {
+    margin: 0 3px;
+}
+
+
+                                    /*PROFILE AREA*/
+
+
+.profile-log ul {
+
+}
+.profile-log ul li {
+    list-style: none;
+    border-radius: 4px;
+    position: relative;
+}
+.profile-log ul li li.pro {
+    border-bottom: 1px solid #ccc;
+    
+}
+.profile-log ul li a {
+    background-image:linear-gradient(to top,#A4C5E3,#E5EAEF);
+    padding: 5px 6px;
+    border-radius: 4px;
+    color: #204E78;
+    letter-spacing: normal;
+    font-size: 12px;
+    font-weight: 700;
+}
+.profile-log ul li a i {
+    margin-right: 8px;
+}
+
+.profile-log ul ul {
+    background: #A4C5E3;
+    width: 100%;
+    float: right;
+    text-align: left;
+    border-top: 2px solid #ffffff;
+    border-radius: 4px;
+    display: none;
+    padding: 5px 0 5px 5px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+.profile-log ul li li a {
+    text-transform: none;
+    background: none;
+}
+.profile-log ul li:hover > ul {
+    display: block;
+}
+.profile-log ul ul li:hover a {
+    color: #0093DD;
+}
+                                 /*MAIN AREA*/
+
+.main-area {
+    background-image: linear-gradient(#706fd3,#ecf0f1);
+    overflow: hidden;
+}
+.main-area:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-left-area {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    margin-right: 1%;
+}
+.sidebar-area {
+    width: 29%;
+    float: left;
+    overflow: hidden;    
+}
+
+/*                    MAIN SERVICE AREA                 */
+
+.main-service-area {
+    background-image: url('../img/exchange.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 25px;
+    border: 2px solid #474787;
+    border-radius: 3px;
+}
+.service-blur {
+    background: rgba(0, 0, 0, .5);
+    padding: 30px 0;
+}
+.transaction {
+    
+}
+.transciver {
+    width: 49%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.transciver:last-child {
+    margin-right: 0;
+}
+.transciver-logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 3px solid #9392D0;
+    overflow: hidden;
+    padding: 3px;
+    display: inline-block;
+    margin: 29px 5% 92px;
+    background: #ffffff;
+}
+.transciver-logo img {
+    width: 100%;
+    height: 100%;    
+}
+
+.send-logo {
+    float: left;
+}
+.main-send {
+  
+}
+.main-receive {
+    
+}
+
+.transciver-box select, .transciver-box input {
+	width: 70%;
+	box-sizing: border-box;
+	border: 1px solid #d0cdcd;
+	padding: 8px;
+	margin-bottom: 18px;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #474787;
+    background: #ffffff;
+	font-weight: normal;
+}
+.transciver-box select .ccc {
+    color: #474787;
+}
+.transciver-box input[type="number"] {
+    font-weight: 400;
+   font-family: sans-serif;  
+    color: #009432;
+    border: 1px solid #ccc;
+}
+
+.transciver-box input[type="number"]::-moz-placeholder, .transciver-box input[type="number"]::-webkit-placeholder {
+     color: #009432;
+    letter-spacing: 2px;
+    opacity: .4;
+}
+.send-box p {
+    text-align: right;
+    margin-right: 2%;
+    font-size: 16px;
+}
+.receive-box p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.transciver-box h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.transaction {
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.main-service-area button {
+	color: #f2efef;
+	background-image: linear-gradient(to top,#474787,#7372D4);
+	padding: 10px 53px;
+	font-size: 21px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-family: 'PT Sans Caption', sans-serif;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+.main-service-area button:hover {
+    background: #474787;
+}
+.style {
+    color: red;
+    background: #ffffff;
+    text-align: center;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 14px #000;
+    position: absolute;
+    top: 90px;
+    left: 12%;
+}
+.small {
+    width: 30%;
+    left: 20%;
+}
+.main-service-area input[type="submit"] {
+	border: none;
+	background-image: linear-gradient(to top,#474787,#7372D4);
+	color: white;
+	padding: 8px 56px;
+	font-size: 22px;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	display: block;
+	text-align: center;
+	margin: 15px auto 0;
+}
+.main-service-area input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#30336B,#30336B); 
+}
+.main-area input + p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.receive-logo {
+    float: right;
+}
+.main-right-area {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+
+                            /*<!--TESTIMONIAL AREA-->*/
+
+.testimonial-area {
+    padding: 20px 30px;
+    background: #ffffff;
+    overflow: hidden;
+    margin-top: 25px;
+     border: 2px solid #474787;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.testimonial-work {
+    
+}
+.testimonial-work h2 {
+    color: #474787;
+}
+.testimonial-work hr {
+    border: none;
+    border-bottom: 1px solid rgba(71, 71, 135, .1);
+}
+.testimonial-box {
+    padding: 11px;
+}
+.testimonial-slide {
+	width: 32%;
+	float: left;
+	overflow: hidden;
+	/* border-left: 4px solid #b1b1b1; */
+	margin-right: 2%;
+	box-sizing: border-box;
+	padding: 9px;
+	background: #f4f4f4;
+	min-height: 191px;
+	box-shadow: 2px 2px 4px #aeabab;
+	border-radius: 5px;
+}
+.testimonial-slide:last-child {
+    margin-right: 0;
+}
+.testimonial-slide p {
+	margin-left: 10px;
+	color: #514f4f;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.testimonial-slide P:last-child {
+    text-align: right;
+    color: gray;
+}
+
+
+                                        /*LATEST EXCHANGE*/
+
+.latest-exchange {
+    background: #ffffff;
+    padding: 20px 30px;
+    margin: 25px 0;
+     border: 2px solid #474787;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.latest-exchange h2 {
+    color: #474787;
+    margin-bottom: 15px;
+}
+.latest-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.latest-table tr th {
+    font-size: 16px;
+    background: #474787;
+    color: #ffffff;
+    padding: 8px 0;
+    border: 1px solid #dedbdb;
+}
+.latest-table tr td {
+	padding-left: 8px;
+	font-size: 16px;
+	border: 1px solid #dedbdb;
+	text-align: center;
+	font-weight: bold;
+	color: #666666;
+}
+.latest-table tr td .pen {
+    color: red;
+}
+.latest-table tr td .suc {
+    color: green;
+}
+.latest-table tr td img {
+    width: 30px;
+    height: 30px;
+}
+.latest-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+                                        /*SIDEBAR AREA*/
+
+.main-reserve {
+    margin-top: 25px;
+    background: #ffffff;
+    padding: 13px 8px 0 8px;
+    box-sizing: border-box;
+     border: 2px solid #474787;
+    border-radius: 3px;
+}
+.main-reserve h2, .comment h2 {
+    color: #474787;
+}
+.main-reserve h2 + hr, .comment h2 + hr {
+    border: none;
+    border-bottom: 1px solid rgba(71, 71, 135, .5);
+}
+.main-top {
+    margin-left: 10%;
+}
+.reserve-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 3px solid #cccccc;
+    float: left;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.reserve-count {
+    overflow: hidden;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 5px;
+}
+.reserve-count:last-child {
+    border-bottom: none;
+}
+.reserve-count img {
+    width: 100%;
+    height: 100%;
+}
+.reserve-text {
+    float: left;
+}
+.reserve-text p {
+	font-size: 16px;
+	color: dimgray;
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+
+
+                                /*COMMENT BOX*/
+
+.comment-area {
+    margin-top: 25px;
+    background: #ffffff;
+    padding: 13px 22px;
+    box-sizing: border-box;
+    border: 2px solid #474787;
+    border-radius: 3px;
+}
+.comment textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid #3333;
+	padding-left: 5px;
+    padding-top: 4px;
+	margin: 18px 0;
+    color: #191818;
+    font-size: 15px;
+}
+.comment textarea::-moz-placeholder, .comment textarea::-webkit-placeholder {
+    color: #474787;
+    margin-top: 112px;
+}
+.comment textarea:focus {
+    border: 1px solid #373787;
+    box-shadow: 0 0 3px #373787;
+}
+.comment input[type="submit"] {
+    border: 1px solid #373787;
+    border-radius: 4px;
+    outline: none;
+    background: #373787;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-family: tahoma;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.comment input[type="submit"]:hover {
+     box-shadow: 0 0  10px .5px rgba(0, 128, 0, .5);
+}
+
+
+                                /* FOOTER AREA*/
+
+.footer-area {
+	padding: 50px 0;
+	overflow: hidden;
+	background-image: linear-gradient(to top, #ffffff, #ecf0f1);
+}
+.footer-area .middle {
+    width: 80%;
+    margin: auto;
+}
+.footer-col {
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.footer-col:last-child {
+    margin-right: 0;
+}
+.footer-col h2 {
+	color: #474787;
+	margin-bottom: 20px;
+	font-weight: 400;
+    text-align: left;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    color: #4b4949;
+    font-size: 16px;
+    list-style: none;  
+    text-align: left;
+}
+.footer-col ul li a {
+    color:  #4b4949;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-follow ul li a i {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #3B5998;
+}
+.footer-pac {
+    margin-left: 25%;
+}
+.footer-follow ul li:last-child a i {
+    color: #C1272D;
+}
+.footer-follow ul li a {
+    
+}
+
+                                    /*CONTACT AREA*/
+
+.contact-area {
+     background-image: linear-gradient(#706fd3,#ecf0f1);
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.contact-page {
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+}
+.contact-float {
+	width: 34%;
+    height: 328px;
+    background-image: linear-gradient(#7675D4, rgba(71, 71, 135, 1));
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    padding: 20px 0 3px 71px;
+    box-sizing: border-box;
+    display: block;
+}
+.contact-float {
+    color: #ffffff;
+}
+
+                                                /*CONTACT LIST*/
+
+.float-text {
+    margin-bottom: 30px;
+}
+.contact-list {
+    clear: both;
+    width: 100%;
+    margin-top: 
+}
+
+.contact-icon {
+	width: 6%;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	text-align: center;
+	margin-right: 14px;
+	padding: 5px 6px;
+}
+.contact-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+.contact-detail {
+    width: 78%;
+    float: left;
+    overflow: hidden;
+}
+.contact-detail p {
+    font-size: 15px;
+}
+.contact-address {
+    overflow: hidden;
+    margin-bottom: 44px;
+}
+
+                                    /*CONTACT FORM*/
+
+.contact-form {
+    background-image: linear-gradient(#ffffff, #ecf0f1);
+    width: 70%;
+    float: right;
+    padding: 15px 0;
+    border-radius: 4px;
+}
+
+.contact-form h2 {
+    color: #474787;
+}
+.contact-form hr {
+    width: 33%;
+    color: #474787;
+    float: left;
+}
+.contact-float hr {
+    width: 33%;
+    color: #ffffff;
+    float: left;
+}
+
+.contact-float .small {
+    width: 25%;
+    margin-top: -7px;
+    color: #ffffff;
+}
+
+.contact-form .small {
+    width: 25%;
+    margin-top: -7px;
+    color: #474787;
+}
+.contact-text {
+   width: 53%;
+    float: right;
+    padding-right: 20%;
+}
+.contact-text p {
+    clear: both;
+    margin: 5px 0;
+}
+.contact-form table {
+    width: 100%;
+}
+.contact-table tr td {
+    padding: 15px 5px;
+}
+.contact-text .wrong {
+    float: left;
+    padding: 8px;
+    width: 97%;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid red;
+    color: red;
+    margin-left: 1%;
+}
+.contact-text .success {
+    margin: 10px 0 5px 1%;
+    padding: 8px;
+    width: 97%;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: rgba(109, 212, 145, .5);
+    color: #000000;
+}
+
+.contact-table tr td input, .contact-table textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding: 6px;
+    font-family: 'PT Sans Caption', sans-serif;
+    border-radius: 1px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.contact-table tr td input:focus, .contact-table tr td textarea:focus {
+    border: 1px solid rgba(104, 109, 224, 1);
+    box-shadow: 0 0  10px .5px rgba(104, 109, 224, .5);
+}
+.contact-table tr td input::-webkit-input-placeholder, .contact-table tr td textarea::-webkit-input-placeholder {
+    color: #767676;
+}
+.contact-table tr td input::-moz-placeholder, .contact-table tr td textarea::-moz-placeholder {
+    color: #767676;
+}    
+.contact-table input[type="submit"] {
+    background-image: linear-gradient(to top,#474787,#7372D4);
+    color: #ffffff;
+    width: 35%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-table input[type="submit"]:hover {
+     cursor: pointer;
+    background-image: linear-gradient(#30336B,#30336B);
+}
+.contact-table input[type="submit"]:focus {
+    border: none;
+    box-shadow: none;
+}
+
+
+                                    /*REGISTER AREA*/
+
+.register-area {
+    background-image: linear-gradient(#7170D3,#ecf0f1);
+    overflow: hidden;
+}
+.login .reg-form {
+    background: #474789;
+    padding: 12px;
+}
+.reg-form {
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+.reg-text {
+    background: #F2F3F7;
+    width: 100%;
+    padding: 33px 0;
+}
+.reg-text p {
+    width: 100%;
+    margin: 15px 0 0;
+    color: dimgray;
+}
+.reg-text .reg-log {
+    margin: 0;
+}
+.reg-text a {
+    text-decoration: none;
+}
+.reg-text a:hover {
+    text-decoration: underline;
+}
+.reg-text h2 {
+    position: relative;
+    color: #474787;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.reg-text h2:before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: rgb(71, 71, 135, .4);
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+.reg-text h2:after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+     background: rgb(71, 71, 135, .4);
+    position: absolute;
+    top: 50%;
+    right: 17%;
+}
+.reg-text h2 span {
+    background: #F2F3F7;
+}
+
+.reg-form table {
+    width: 80%;
+    margin: auto;
+}
+.login .reg-form table tr td {
+    padding: 12px;
+}
+.reg-form table tr td {
+    padding: 6px;
+}
+.reg-text table tr td label {
+    float: left;
+    margin-bottom: 5px;
+}
+.reg-text table tr td label span {
+    color: red;
+}
+.reg-text input[type="submit"] {
+    margin-top: 0;
+}
+.error {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    float: left;
+    margin-top: 5px;
+}
+                                        /*LOG IN AREA*/
+
+.log-text table tr:last-child td a {
+	float: right;
+	display: block;
+	margin-top: 9px;
+	font-size: 13px;
+	color: #474787;
+}
+.log-text table tr:last-child td a:hover {
+    color: #30336B;
+    text-decoration: underline;
+}
+.log-text input[type="submit"] {
+    float: left;
+}
+
+
+                                        /*EXCHANGE AREA*/
+
+.exchange-area {
+    overflow: hidden;
+    background-image: linear-gradient(#7170D3,#ecf0f1)
+}
+.exmid {
+    width: 70%;
+    margin: auto;
+}
+.exchange-bg {
+    margin: 30px;
+}
+.exchange-page {
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    background: #63738A;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+.exchange-text {
+    background: #F2F3F7;
+    overflow: hidden;
+}
+.text-middle {
+    width: 70%;
+    margin: 20px auto;
+}
+.exchange-table {
+    width: 100%;
+}
+.exchange-table tr td {
+    padding: 12px;
+}
+.exchange-table tr td label {
+    font-size: 16px;
+    color: #63738A;
+}
+.exchange-table tr td input {
+    width: 100%;
+    margin-top: 3px;
+    padding: 8px;
+    border: 1px solid rgba(99, 115, 138, .5);
+}
+.exchange-table tr td input:focus {
+     box-shadow: 0 0  10px .5px rgba(104, 109, 224, .5);
+}
+.exchange-table tr input[type="submit"] {
+   background-image: linear-gradient(to top,#474787,#7372D4);
+    color: #ffffff;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 4px;
+}
+.exchange-table tr input[type="submit"]:focus {
+    box-shadow: none;
+}
+.exchange-table tr input[type="submit"]:hover {
+    background-image: linear-gradient(to top,#474787,#35356d);
+    cursor: pointer;
+}
+.what-todo {
+    width: 35%;
+    float: left;
+    background: #F2F3F7;
+    margin-top: 60px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.what-todo h2 {
+    text-align: center;
+    color: #474787;
+    margin-bottom: 10px;
+}
+.what-todo ul {
+    
+}
+.what-todo ul li {
+   list-style: none;
+    padding: 5px;
+}
+.what-todo p.text {
+    font-weight: normal !important;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.what-todo p.text a {
+    text-decoration: none;
+    color: #474787;
+}
+.what-todo p.text a:hover {
+    text-decoration: underline;
+}
+                                    /* ORDER PAGE*/   /*CONFIRM TRANSACTION PAGE*/
+.order-area .exmid {
+    width: 90%;
+}
+.order-area p {
+    color: #474787;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.order-area .text-middle {
+    width: 100%;
+    margin: 0;
+}
+.order-area table{
+     width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e4e1e1;
+    text-align: right;
+}
+.order-area table tr td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+.order-area table tr td .taka {
+    color: #ffffff;
+    background-image: linear-gradient(#30336B,#474787,#212352);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 5px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.order-area table tr td span.bdt {
+     background-image: linear-gradient(#1dc11d,#045804);
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 4px;    
+}
+.order-area table tr td:first-child {
+    text-align: left; 
+    font-weight: 700;
+}
+.order-area table tr td:nth-child(2) {
+    text-align: left;
+}
+.order-table table tr:nth-child(odd) {
+    background: rgba(109, 212, 145, .1);
+}
+.order-area .exchange-page {
+    padding: 10px;
+    border-radius: 4px;
+}
+.order-area .exchange-text {
+    padding: 20px;
+}
+.order-area .exchange-page {
+    width: 72%;
+    margin-right: 2%;
+}
+.order-area .what-todo {
+    width: 26%;
+}
+.order-area form .submit {
+    margin-top: 20px;
+}
+.order-area form .submit input[type="text"] {
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.order-area form .submit input[type="text"]::-webkit-input-placeholder, .order-area form .submit input[type="text"]::-moz-input-placeholder {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #cccccc;
+}
+.order-area form .submit input[type="submit"] {
+    background-image: linear-gradient(#1dc11d,#045804);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.order-area form .submit button {
+     background-image: linear-gradient(#ff1717,#d40b0b);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.order-area form .submit input[type="submit"]:hover {
+    box-shadow: 0 0  10px .5px rgba(0, 128, 0, .5);
+} 
+.order-area form .submit button:hover {
+    box-shadow: 0 0  10px .5px rgb(255, 0, 0, .5);
+}
+
+
+
+                                                    /*ALERT*/
+
+#box {
+     width: 500px;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    padding: 10px 0 20px;
+    text-align: center;
+    display: none;
+}
+#box h1 {
+    font-family: tahoma;
+    color: #d11212;
+    padding: 20px 0 10px;
+}
+#box .ok {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 2px 15px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+    border-radius: 4px;
+}
+#box p {
+	font-family: tahoma;
+	color: green;
+	padding-bottom: 18px;
+    font-weight: 600;
+}
+#box a {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration:none;
+    background: #3131ea;
+    color: #fff;
+    padding: 4px 17px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+#box a:hover {
+    background: #0e0ea7;
+}
+
+
+                                    /*CHAT APP*/
+
+.chat-toggle {
+    width: 75px;
+    background: tomato;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: fixed;
+    top: 90%;
+    right: 2%;
+    cursor: pointer;
+}
+.chat-box {
+	position: fixed;
+	bottom: 10px;
+	right: 2%;
+	width: 300px;
+	background: #ccc;
+    border-radius: 5px;
+    display: none;
+}
+.chat-box .icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer; 
+    float: right;
+    margin: 5px;
+    transition: .5s;
+}
+
+.chat-box .icon i {
+    color: red;
+}
+.chat-box .square {
+	width: 100%;
+	height: 377px;
+    overflow: hidden;
+}
+.chat-box form {
+    
+}
+.chat-box input[type="text"] {
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 0 0 0 5px;
+}
+.chat-box input[type="submit"] {
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 0;
+    cursor: pointer;
+}
+.chat-box form input{
+    float: left;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+.chat-box .square .chatbox:nth-child(even) {
+    text-align: right;    
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.chat-box .square .chatbox:nth-child(even) p{
+    color: red;
+    width: 60%;
+    float: right;
+}
+.chat-box .square .chatbox:nth-child(odd) p{
+    color: blue;
+    width: 60%;
+    float: left;
+}
+.chat-box .square .chatbox:nth-child(odd) {
+    text-align: left;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+
+
+
+

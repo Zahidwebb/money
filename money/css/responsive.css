@@ -1,0 +1,215 @@
+                            /*RESPONSIVE AREA*/
+
+@media all and (max-width:1244px){
+    .middle {
+        width: 90%;
+    }
+    
+}
+@media all and (max-width:1044px){
+    .menu {
+        width: 52%;
+    }
+    .menu ul {
+        float: right !important;
+    }
+    .menu ul li {
+        padding: 0 6px;
+    }
+    .sign-area {
+        width: 28%;
+        margin-top: 2px;
+    }
+    .menu-area ul li a {
+        font-size: 12px;
+    }
+    .menu-area ul {
+        float: left;
+    }
+    .main-service-area {
+    background-image: url('../img/exchange.jpg');
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 25px;
+    border: 2px solid #474787;
+    border-radius: 3px;
+}
+    .main-left-area {
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+    .sidebar-area {
+        width: 100%;
+        float: none;
+        border: none;
+        background: none;
+    }
+    .reserve-count {
+    border-bottom: none;
+}
+   
+    
+}
+@media all and (max-width: 818px) {
+    
+    
+    .header-area .top {
+        display: none;    
+    }
+    .header-text {
+        display: block;
+    }
+    .menu {
+        width: 80%;
+        float: right;
+    }
+    .menu ul {
+        float: right;
+    }
+    .sign-area {
+        display: none;    
+    }
+    .header-dash{
+        display: block;
+        font-size: 12px;
+    }
+    .header-dash p a:hover i, .header-dash p a:hover {
+       color: #68e568 !important;
+    }
+    .transciver-logo {
+        display: none;
+    }
+    .transciver {
+        float: none;
+        width: 100%;
+    }
+    .transciver p {
+        text-align: left;
+        margin-left: 15%;
+    }
+     h2 {
+        text-align: left;
+        font-size: 18px;
+    }
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    
+}
+@media all and (max-width: 630px) {
+   
+    .menu-area .middle {
+        width: 100%;         
+    }
+    .menu-area {
+        padding: 20px 0 0;
+    }
+    .logo-area {
+        width: 95%;
+        float: none;
+        margin: 0 0px 10px 10px;
+    }
+    .logo-area .bars {
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+    .menu {
+        width: 100%;
+        background: skybue;
+        float: none;
+    }
+    .menu ul {
+        background: #474787;
+        width: 100%;
+    }
+   .menu ul li {
+        float: none;
+        text-align: right;
+        border-bottom: 1px dotted #cccccc;
+        margin: 0 10px;
+        text-align: center;
+        padding: 3px;
+    }
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+    .menu ul li a {
+        color: #ffffff;
+        font-size: 12px;
+        width: 100%;
+        display: block;
+    }
+    .menu ul li a:hover {
+        color: yellow;
+    }
+    .menu-area ul li a {
+        border-bottom: none;
+        padding-bottom: 0;
+        padding: 6px 0;
+    }
+    .menu-area ul li:hover a {
+        border-bottom: none;
+        background: #d35400;
+    }
+
+    .reserve-text p {
+        font-size: 14px;
+    }
+    .testimonial-slide {
+        width: 50%;
+        margin-right: 0;
+    }
+    .testimonial-slide:last-child {
+        display: none;
+    }
+    .latest-table tr th, .latest-table tr td {
+        font-size: 12px;
+    }
+    .latest-exchange {
+        padding: 20px 8px;
+    }
+    
+}
+@media all and (max-width: 500px){
+    .middle {
+        width: 100%;
+    }
+     .header-area {
+        padding: 5px 15px;
+    }
+    .main-service-area {
+        background-image: none;
+    }
+    .transciver-box select, .transciver-box input {
+        width: 100%;
+    }
+    .main-area input + p {
+        text-align: right;
+    }
+    .testimonial-slide:nth-child(2) {
+        display: none;
+    }
+    .testimonial-slide {
+        width: 100%;
+    }
+    .testimonial-slide p:last-child {
+       text-align: right;
+    }
+    .footer-col {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+        margin-right: 0;
+    }
+    .footer-pac {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
